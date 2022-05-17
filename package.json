@@ -1,0 +1,21 @@
+{
+  "name": "serialization",
+  "version": "1.0.0",
+  "description": "Example of object serialization in JS with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "No test",
+    "start": "node index.js",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanRemyDuboc/serialization-example.git"
+  },
+  "author": "JR Duboc",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JeanRemyDuboc/serialization-example/issues"
+  },
+  "homepage": "https://github.com/JeanRemyDuboc/serialization-example#readme"
+}
