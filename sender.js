@@ -33,11 +33,9 @@ let myComplexObject = {"widget": {
 
 //Create HTTP server and listen on port 3000 for requests
 const server = http.createServer((req, res) => {
-
   //Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  //res.setHeader('Content-Disposition', 'attachment; filename="text.txt"');
+  res.setHeader('Content-Type', 'application/octet-stream');
   res.end(v8.serialize(myComplexObject));
 });
 
